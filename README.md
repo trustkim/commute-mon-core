@@ -1,4 +1,4 @@
-<div align="center">
+<div align="left">
   <!-- 이미지 경로: 프로젝트 루트 기준 -->
   <img src="client/assets/icon.png" alt="CommuteMon Logo" width="120" height="120" />
   
