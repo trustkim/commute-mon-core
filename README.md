@@ -127,11 +127,11 @@ npx expo start
     * 지방 소멸로 인한 통근 수요 자체의 감소는 본 플랫폼이 해결할 수 없는 거시적 문제입니다. 사람이 없으면 차도 필요 없습니다.
 
 <!-- Epilogue: The Way Home -->
-<div align="center"> 
+<div align="left"> 
 <!-- 지정하신 파일명 적용 -->
 <img src="assets/Dongseong-ro_76beon-gil_20170702_0015.jpg" alt="Dongseong-ro 76-beon-gil" width="80%" style="border-radius: 8px; opacity: 0.85;" />
 <p>
-<sub>"37 Dongseong-ro 76beon-gil, Busanjin-gu, Busan. (2017.07.02 00:15)"</sub>
+<sub>@ 37 Dongseong-ro 76beon-gil, Busanjin-gu, Busan. (2017.07.02 00:15)</sub>
 </p>
 </div>
 
