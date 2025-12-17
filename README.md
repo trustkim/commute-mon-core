@@ -9,18 +9,18 @@
   </p>
 </div> <!-- 잊지 말고 꼭 닫아주세요! -->
 
-> 사내 운전자와 탑승자를 따뜻하게 연결하여, 조직의 생산성과 이동 편의성을 지키는 **하이브리드 셔틀 플랫폼**입니다.
+> 사내 운전자와 탑승자를 연결하여, 조직의 생산성과 이동 편의성을 지키는 **하이브리드 셔틀 플랫폼**입니다.
 
 ---
 
 ## 🧐 Project Background
 
-이 프로젝트는 **'차를 놓칠까 봐 불안한 탑승자'**와 **'운전 때문에 본업에 집중 못 하는 운전자'**, 우리 주변의 평범한 이웃들이 겪는 고충을 해결하기 위해 시작되었습니다.
+이 프로젝트는 **'차를 놓칠까 봐 불안한 탑승자'** 와 **'운전 때문에 본업에 집중 못 하는 운전자'**, 우리 주변의 평범한 이웃들이 겪는 고충을 해결하기 위해 시작되었습니다.
 
 우리는 기술을 통해 다음 두 가지 가치를 실현합니다.
 
 1.  **Productivity Protection (생산성 보호):** 핵심 인력(운전자)이 운행 부담 없이 본업(긴급 트러블 슈팅 등)에 집중할 수 있도록 시스템이 서포트합니다.
-2.  **Warm Connection (따뜻한 연결):** 서로의 출퇴근 상황(지연, 잔업)을 투명하게 공유하여, 기다림과 초조함 대신 배려하는 문화를 만듭니다.
+2.  **Warm Connection (맘 편한 연결):** 서로의 출퇴근 상황(지연, 잔업)을 투명하게 공유하여, 기다림과 초조함 대신 배려하는 문화를 만듭니다.
 
 ---
 
@@ -63,19 +63,26 @@
 
 ```bash
 commute-mon-core/
-├── assets/            # Global Assets
-├── client/            # [Frontend] React Native (Expo) Project
-│   ├── App.tsx
+├── .nvmrc             # Node.js 버전 고정 (v22)
+├── .gitignore         # Git 무시 파일 설정 (통합)
+├── .firebaserc        # Firebase 프로젝트 ID 매핑 (Alias)
+├── firebase.json      # Firebase 전체 설정
+├── client/            # [Frontend] React Native (Expo)
+│   ├── assets/        # 아이콘, 스플래시 이미지
+│   ├── App.tsx        # 메인 컴포넌트
+│   ├── index.ts       # 앱 등록 진입점
+│   ├── app.json       # Expo 설정
+│   ├── tsconfig.json  # TypeScript 설정
+│   └── package.json   # 클라이언트 의존성 목록
+│   └── package-lock.json # 의존성 버전 잠금 파일
+├── functions/         # [Backend] Firebase Cloud Functions
 │   ├── src/
-│   │   ├── components/
-│   │   ├── screens/
-│   │   ├── hooks/
-│   │   └── services/  # API Connectors (Firebase, TMAP)
-│   └── app.json
-├── functions/         # [Backend] Firebase Cloud Functions Project
-│   ├── src/
-│   └── index.ts
-└── docs/              # Project Documentation & Meeting Logs
+│   │   └── index.ts   # 백엔드 진입점
+│   ├── .eslintrc.js   # 린트 설정
+│   ├── tsconfig.json  # TypeScript 설정
+│   ├── tsconfig.dev.json # 개발 환경용 TS 설정
+│   └── package.json   # 서버 의존성 목록
+│   └── package-lock.json # 의존성 버전 잠금 파일
 ```
 
 ---
