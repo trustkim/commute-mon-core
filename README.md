@@ -109,4 +109,28 @@ cd ../client
 npx expo start
 ```
 
+---
+
+## 🛑 Limitations (한계점 및 제약 사항)
+
+이 프로젝트는 현재의 과도기적 기술과 조직 문화를 바탕으로 설계되었으며, 다음과 같은 명확한 한계를 가집니다.
+
+1.  **Technological Obsolescence (기술적 수명):**
+    * 본 서비스는 레벨 4/5 자율주행 및 커넥티드 카(V2X) 인프라가 상용화되어 '이동의 자동화'가 이루어지는 시점에는 그 가치를 상실합니다.
+2.  **Supply Constraint (공급의 한계):**
+    * P2P 매칭 모델의 특성상, 동행할 운전자가 없는 **'나 홀로 야근'** 상황에 대해서는 이동 수단을 제공할 수 없습니다. 나 홀로 야근을 줄여주는 AI 도구를 많이 만들어 주세요 :)
+3.  **Scope of Delay (지연 허용 범위):**
+    * '지연 요청(Late Alert)' 기능은 10~15분 내외의 짧은 마감 확보를 위한 것입니다. 30분 이상의 장기 잔업은 소프트웨어적 조율이 아닌, **'다회차 순환 운행'** 등 물리적 운영 정책으로 해결해야 할 문제입니다.
+4.  **Social Fatigue (사회적 피로도):**
+    * '연결'과 '유대감'을 지향하므로, 퇴근길에 완벽한 개인 공간과 침묵을 선호하는 사용자(I성향)에게는 심리적 부담이 될 수 있습니다.
+
+<!-- Epilogue: The Way Home -->
+<div align="center"> 
+<!-- 지정하신 파일명 적용 -->
+<img src="assets/Dongseong-ro_76beon-gil_20170702_0015.jpg" alt="Dongseong-ro 76-beon-gil" width="80%" style="border-radius: 8px; opacity: 0.85;" />
+<p>
+<sub>"37 Dongseong-ro 76beon-gil, Busanjin-gu, Busan. (2017.07.02 00:15)"</sub>
+</p>
+</div>
+
 © 2025 trustkim. All rights reserved.
