@@ -1,8 +1,2 @@
-import { registerRootComponent } from 'expo';
-
-import App from './App';
-
-// registerRootComponent calls AppRegistry.registerComponent('main', () => App);
-// It also ensures that whether you load the app in Expo Go or in a native build,
-// the environment is set up appropriately
-registerRootComponent(App);
+// 기존 내용은 다 지우고 이 한 줄만 남기세요.
+import 'expo-router/entry';
